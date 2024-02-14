@@ -1,4 +1,26 @@
-#map { 
+/*#map { 
     height: 400px;
     width: 600px;
-}
+}*/
+.map {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+.unitedstates{
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .arizona {
+    position: absolute;
+    top: 500px;
+    left: 60px;
+    border: 1px red solid;
+  }
+  .alaska {
+    position: absolute;
+    top: 800px;
+    left: 60px;
+    border: 1px green solid;
+  }
