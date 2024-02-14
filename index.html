@@ -48,24 +48,28 @@
 
 
 <body>
+    <div class="map">
+        <image class="unitedstates" src = "pictures/unitedstates" />
+        <image class="arizona" src="pictures/arizona" />
+    </div>
+<!-- Another leaflet map
+    <div id="map"></div>
 
-<div id="map"></div>
+    <script src="//unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 
-<script src="//unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script>
 
-<script>
+            window.onload = function() {
 
-        window.onload = function() {
+            var tileLayer = L.tileLayer("//server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}.png", {maxZoom: 18, attribution: 'MRLC, State of Oregon, State of Oregon DOT, State of Oregon GEO, Esri, DeLorme, HERE, TomTom, USGS, NGA, EPA, NPS, U.S. Forest Service'});
 
-        var tileLayer = L.tileLayer("//server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}.png", {maxZoom: 18, attribution: 'MRLC, State of Oregon, State of Oregon DOT, State of Oregon GEO, Esri, DeLorme, HERE, TomTom, USGS, NGA, EPA, NPS, U.S. Forest Service'});
+            var map = new L.map('map', {
+                layers: tileLayer
+            }).setView([45.46, -122.739], 4);
 
-        var map = new L.map('map', {
-            layers: tileLayer
-        }).setView([45.46, -122.739], 4);
+        };
 
-    };
-
-</script>
-
+    </script>
+-->
 </body>
 </html>
