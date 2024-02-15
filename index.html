@@ -212,7 +212,7 @@
             $('.map').toggle();
             $('#wyomingmap').toggle();
         });
-        $('#backbutton').click(function(){
+        $('.backbutton').click(function(){
             var districts = document.getElementsByClassName('districtmap');
             districts.style.display('none');
             $('.map').toggle();
@@ -231,15 +231,15 @@
         <img class ="arizona" src="pictures/arizona.png"  onmouseover="this.src='pictures/arizonahighlight.png'" onmouseout="this.src='pictures/arizona.png'" /> <!-- Highlight code is f6d86f-->
     </div>
     <div class="districtmap" id="alabamamap" style="display: none;">
-        <img id="backbutton" src="pictures/back.png" />
+        <img class="backbutton" src="pictures/back.png" onmouseover="this.src='pictures/backhighlight.png'" onmouseout="this.src='pictures/back.png'"/>
         <img id="alabamadist" src="pictures/aldistricts.png"/>
     </div>
     <div class="districtmap" id="alaskamap" style="display: none;">
-        <img id="backbutton" src="pictures/back.png" />
+        <img class="backbutton" src="pictures/back.png" onmouseover="this.src='pictures/backhighlight.png'" onmouseout="this.src='pictures/back.png'"/>
         <img id="alaskadist" src="pictures/akdistricts.png"/>
     </div>
     <div class="districtmap" id="arizonamap" style="display: none;">
-        <img id="backbutton" src="pictures/back.png" />
+        <img class="backbutton" src="pictures/back.png" onmouseover="this.src='pictures/backhighlight.png'" onmouseout="this.src='pictures/back.png'"/>
         <img id="arizonadist" src="pictures/azdistricts.png"/>
     </div>
 </body>
