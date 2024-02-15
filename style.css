@@ -8,15 +8,21 @@
     top: 0;
     left: 0;
   }
+.alabama {
+      position: absolute;
+      top: 850px;
+      left: 2000px;
+      border: 1px blue solid;
+    }
+.alaska {
+      position: absolute;
+      top: 1149px;
+      left: 235px;
+      border: 1px green solid;
+    }
 .arizona {
     position: absolute;
     top: 790px;
     left: 748px;
     border: 1px red solid;
-  }
-.alaska {
-    position: absolute;
-    top: 1149px;
-    left: 235px;
-    border: 1px green solid;
   }
