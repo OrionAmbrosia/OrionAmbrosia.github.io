@@ -14,13 +14,13 @@
   }
   .arizona {
     position: absolute;
-    top: 1250px;
-    left: 500px;
+    top: 950px;
+    left: 600px;
     border: 1px red solid;
   }
   .alaska {
     position: absolute;
-    top: 1500px;
+    top: 1200px;
     left: 220px;
     border: 1px green solid;
   }

@@ -40,9 +40,18 @@
 <head lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Learn Maps</title>
+<title>Political Maps</title>
 <link rel="stylesheet" type ="text/css" href="style.css" />
 <link rel="stylesheet" href="//unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $('.arizona').click(function(){
+            $('#unitedstates').toggle();
+            $('#arizonamap').toggle();
+        });
+    });
+</script>
 
 </head>
 
@@ -52,6 +61,9 @@
         <image class="unitedstates" src = "pictures/unitedstates.png"/>
         <image class="arizona" src="pictures/arizona.png"  onmouseover="this.src='pictures/arizonahighlight.png'" onmouseout="this.src='pictures/arizona.png'" /> <!-- Highlight code is f6d86f-->
         <image class="alaska" src="pictures/alaska.png" />
+    </div>
+    <div class="arizonamap" style="display: none;">
+        <image class="arizonadist" src="pictures/azdistricts.png"/>
     </div>
 <!-- Another leaflet map
     <div id="map"></div>
