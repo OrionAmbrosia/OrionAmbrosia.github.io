@@ -8,21 +8,27 @@
     top: 0;
     left: 0;
   }
+.backbutton{
+      position: absolute;
+      top: 0;
+      left: 0;
+      border: 1px purple solid;
+}
 .alabama {
       position: absolute;
       top: 963px;
       left: 2057px;
       border: 1px blue solid;
-    }
+}
 .alaska {
       position: absolute;
       top: 1149px;
       left: 235px;
       border: 1px green solid;
-    }
+}
 .arizona {
     position: absolute;
     top: 790px;
     left: 748px;
     border: 1px red solid;
-  }
+}
