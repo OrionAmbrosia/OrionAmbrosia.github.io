@@ -9,9 +9,8 @@
 <script>
     $(document).ready(function(){
         $('.arizona').click(function(){
-            $('.unitedstates').toggle();
+            $('.map').toggle();
             $('.arizonamap').toggle();
-            $('.mapimage').toggle();
         });
     });
 </script>
@@ -21,9 +20,9 @@
 
 <body>
     <div class="map">
-        <img class ="mapimage" id="unitedstates" src = "pictures/unitedstates.png"/>
-        <img class ="mapimage" id="arizona" src="pictures/arizona.png"  onmouseover="this.src='pictures/arizonahighlight.png'" onmouseout="this.src='pictures/arizona.png'" /> <!-- Highlight code is f6d86f-->
-        <img class ="mapimage" id="alaska" src="pictures/alaska.png" />
+        <img class ="unitedstates" src = "pictures/unitedstates.png"/>
+        <img class ="arizona" src="pictures/arizona.png"  onmouseover="this.src='pictures/arizonahighlight.png'" onmouseout="this.src='pictures/arizona.png'" /> <!-- Highlight code is f6d86f-->
+        <img class ="alaska" src="pictures/alaska.png" />
     </div>
     <div class="arizonamap" style="display: none;">
         <img id="arizonadist" src="pictures/azdistricts.png"/>

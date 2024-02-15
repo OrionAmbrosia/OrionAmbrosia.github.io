@@ -7,20 +7,20 @@
     top: 0;
     left: 0;
   }
-#unitedstates{
+.unitedstates{
     position: relative;
     top: 0;
     left: 0;
   }
-#arizona {
+.arizona {
     position: absolute;
-    top: 800px;
-    left: 750px;
+    top: 790px;
+    left: 748px;
     border: 1px red solid;
   }
-#alaska {
+.alaska {
     position: absolute;
-    top: 1220px;
-    left: 225px;
+    top: 1148px;
+    left: 233px;
     border: 1px green solid;
   }
