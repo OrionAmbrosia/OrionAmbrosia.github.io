@@ -214,9 +214,10 @@
         });
         $('.backbutton').click(function(){
             var districts = document.getElementsByClassName('districtmap');
-            districts.forEach((d) => {
-                d.style.display('none');
-            });
+            var i;
+            for(i = 0; i < districts.length; i++){
+                districts[i].style.display = 'none';
+            }
             $('.map').toggle();
         })
     });
